@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <main>
-      <h2>Only home page its...</h2>
+      <h2 className="text-secondary">Only home page its...</h2>
     </main>
   );
 }
