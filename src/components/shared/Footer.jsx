@@ -1,10 +1,11 @@
 import React from 'react';
-const page = () => {
+
+const Footer = () => {
     return (
         <div>
-            dashboard home
+            main footer
         </div>
     );
 };
 
-export default page;
+export default Footer;

@@ -1,10 +1,11 @@
 import React from 'react';
-const page = () => {
+
+const Profile = () => {
     return (
         <div>
-            dashboard home
+            dashboard profile
         </div>
     );
 };
 
-export default page;
+export default Profile;
