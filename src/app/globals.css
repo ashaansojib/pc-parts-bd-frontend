@@ -48,3 +48,15 @@ body {
 .case-card-container:hover img{
   @apply skew-x-1
 }
+
+/* swiper */
+/* styles/globals.css */
+.swiper-button-prev, .swiper-button-next {
+  @apply bg-slate-800 rounded-lg
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 16px !important;
+  color: white;
+  font-weight: 600;
+}

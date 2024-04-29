@@ -2,6 +2,10 @@
 import React, { useEffect, useState } from "react";
 import { SectionTitle } from "../shared/SectionTitle";
 import CaseCard from "../cards/CaseCard";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
 
 interface GammingChair {
   id: string;
@@ -25,15 +29,43 @@ const ChairSection: React.FC = () => {
         title="Gamming Chair Best Deals!"
         description="Check & Get Your Desire Product!"
       />
-      <div className="my-container grid gap-2 justify-between grid-cols-1 md:grid-cols-3 lg:grid-cols-6">
-        {allChair.map((chair) => (
-          <CaseCard
-            key={chair.id}
-            name={chair.name}
-            image={chair.image}
-            price={chair.price}
-          />
-        ))}
+      <div className="my-container pb-4">
+        <Swiper
+          className="mySwiper"
+          spaceBetween={10}
+          slidesPerView={6}
+          navigation={true}
+          breakpoints={{
+            320: {
+              width: 320,
+              slidesPerView: 1,
+            },
+            640: {
+              width: 640,
+              slidesPerView: 2,
+            },
+            768: {
+              width: 768,
+              slidesPerView: 3,
+            },
+            1280: {
+              width: 1280,
+              slidesPerView: 6,
+            },
+          }}
+          modules={[Navigation]}
+        >
+          {allChair.map((chair) => (
+            <SwiperSlide>
+              <CaseCard
+                key={chair.id}
+                name={chair.name}
+                image={chair.image}
+                price={chair.price}
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );
