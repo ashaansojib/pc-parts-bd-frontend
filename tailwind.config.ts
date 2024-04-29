@@ -9,14 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       textColor: {
-        primary: "#E3401D",
-        secondary: "#FFF",
-        accent: "#1111",
+        primary: "#1A202C",
+        secondary: "#BECBD6",
+        accent: "#0068C8",
       },
       backgroundColor: {
-        primary: "#43234",
-        secondary: "#524323",
-        accent: "#1111",
+        primary: "#046BC9",
+        secondary: "#E9F2F9",
+        accent: "#DD2831",
+      },
+      maxWidth: {
+        maxWidth: "1280px",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
