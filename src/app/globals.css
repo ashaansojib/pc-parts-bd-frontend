@@ -32,3 +32,6 @@ body {
   @apply max-w-screen-xl mx-auto
 }
 /* footer bg #021327 */
+.footer-link{
+  @apply flex items-center gap-2 font-bold hover:text-accent
+}
