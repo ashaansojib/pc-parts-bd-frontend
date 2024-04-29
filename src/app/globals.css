@@ -17,17 +17,34 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* my container */
+.my-container{
+  @apply max-w-screen-xl mx-auto
+}
+/* footer bg #021327 */
+.footer-link{
+  @apply flex items-center gap-2 font-bold hover:text-accent
+}
+/* case card */
+.add-to-card-btn{
+  @apply py-2 px-4 bg-primary w-full text-white font-semibold mt-2 rounded-md hover:bg-secondary hover:text-primary
+}
+.case-card-container{
+  @apply border p-2 rounded-md bg-white text-center h-full flex flex-col items-center justify-between transition-all
+}
+.case-card-container:hover h2{
+  @apply text-red-500
+}
+.case-card-container:hover img{
+  @apply skew-x-1
 }

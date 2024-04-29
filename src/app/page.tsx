@@ -1,8 +1,12 @@
-
+import Header from "@/components/shared/Header";
+import Footer from "@/components/shared/Footer";
+import RevengerSection from "@/components/home/RevengerSection";
 export default function Home() {
   return (
     <main>
-      <h2>Only home page its...</h2>
+      <Header />
+      <RevengerSection />
+      <Footer />
     </main>
   );
 }
