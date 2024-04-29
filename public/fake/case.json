@@ -16,5 +16,35 @@
         "name": "Micro-ATX Desktop Casing with200W PSU (White)",
         "image": "https://www.universal.com.bd/image/cache/catalog/Revenger/ECO-200--White-476x476.jpg.webp",
         "price": "550"
+    },
+    {
+        "id": "4",
+        "name": "Revenger FIRE Mid Tower RGB Gaming Case",
+        "image": "https://www.universal.com.bd/image/cache/catalog/REVENGER%20CASE%20IN%20NOV%202022/11.22%20CASE%20/FIRE/1-476x476.png.webp",
+        "price": "2,350"
+    },
+    {
+        "id": "5",
+        "name": "Revenger FIRE Mid Tower RGB Gaming Case",
+        "image": "https://www.universal.com.bd/image/cache/catalog/REVENGER%20CASE%20IN%20NOV%202022/11.22%20CASE%20/FIRE/1-476x476.png.webp",
+        "price": "2,350"
+    },
+    {
+        "id": "6",
+        "name": "Revenger FIRE Mid Tower RGB Gaming Case",
+        "image": "https://www.universal.com.bd/image/cache/catalog/REVENGER%20CASE%20IN%20NOV%202022/11.22%20CASE%20/FIRE/1-476x476.png.webp",
+        "price": "2,350"
+    },
+    {
+        "id": "7",
+        "name": "Revenger FIRE Mid Tower RGB Gaming Case",
+        "image": "https://www.universal.com.bd/image/cache/catalog/REVENGER%20CASE%20IN%20NOV%202022/11.22%20CASE%20/FIRE/1-476x476.png.webp",
+        "price": "2,350"
+    },
+    {
+        "id": "8",
+        "name": "Revenger FIRE Mid Tower RGB Gaming Case",
+        "image": "https://www.universal.com.bd/image/cache/catalog/REVENGER%20CASE%20IN%20NOV%202022/11.22%20CASE%20/FIRE/1-476x476.png.webp",
+        "price": "2,350"
     }
 ]

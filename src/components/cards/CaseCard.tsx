@@ -1,21 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-interface Revenger {
-  id: string;
+
+interface CaseCardProps {
   name: string;
   image: string;
   price: string;
 }
-interface CaseCardProps {
-  revenger: Revenger;
-}
-const CaseCard: React.FC<CaseCardProps> = ({ revenger }) => {
-  const { name, image, price } = revenger;
+
+const CaseCard: React.FC<CaseCardProps> = ({ name, image, price }) => {
   return (
     <div className="case-card-container">
       <div className="relative">
-        <Image src={image} alt="Revenger" width={250} height={100} />
+        <Image src={image} alt={name} width={250} height={100} />
         <h2 className="text-sm font-medium text-primary pb-2">{name}</h2>
         <span className="text-red-500 absolute left-0 top-0 font-semibold">15%</span>
       </div>

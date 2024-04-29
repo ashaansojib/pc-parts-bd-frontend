@@ -37,13 +37,13 @@ body {
 }
 /* case card */
 .add-to-card-btn{
-  @apply py-2 px-4 bg-primary w-full text-white font-semibold mt-2 rounded-md hover:bg-secondary hover:text-primary
+  @apply py-2 px-4 bg-primary w-full text-white font-semibold mt-2 rounded-md hover:bg-secondary hover:text-primary transition duration-300 ease-out
 }
 .case-card-container{
-  @apply border p-2 rounded-md bg-white text-center h-full flex flex-col items-center justify-between transition-all
+  @apply border p-2 m-2 md:m-0 rounded-md bg-white text-center h-full flex flex-col items-center justify-between transition-all
 }
 .case-card-container:hover h2{
-  @apply text-red-500
+  @apply text-red-500 duration-300 ease-in transition
 }
 .case-card-container:hover img{
   @apply skew-x-1
