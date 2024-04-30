@@ -16,6 +16,7 @@ bun dev
 ### Used technology lists here...
 * NextJs, TypeScript, TailwindCss
 * npm install react-icons --save
+* npm install swiper
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
