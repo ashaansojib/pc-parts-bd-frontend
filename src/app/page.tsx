@@ -5,10 +5,12 @@ import ChairSection from "@/components/home/ChairSection";
 import PopularSection from "@/components/home/PopularSection";
 import NewArrival from "@/components/home/NewArrival";
 import ShowCase from "@/components/home/ShowCase";
+import FeaturedSection from "@/components/home/FeaturedSection";
 export default function Home() {
   return (
     <main>
       <Header />
+      <FeaturedSection />
       <ShowCase />
       <NewArrival />
       <PopularSection />

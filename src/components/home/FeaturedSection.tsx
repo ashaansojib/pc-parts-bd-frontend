@@ -1,38 +1,40 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { SectionTitle } from "../shared/SectionTitle";
-import FeaturedCard from "../cards/FeaturedCard";
+import Category from "../cards/Category";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-interface Arrival {
+interface CategoryProps {
   id: string;
   name: string;
   image: string;
-  price: string;
 }
-const NewArrival: React.FC = () => {
-  const [allArrival, setAllArrival] = useState<Arrival[]>([]);
+
+const FeaturedSection: React.FC = () => {
+  const [categories, setCategories] = useState<CategoryProps[]>([]);
+
   useEffect(() => {
-    fetch("/fake/arrival.json")
+    fetch("/fake/category.json")
       .then((res) => res.json())
-      .then((data) => setAllArrival(data));
+      .then((data) => setCategories(data));
   }, []);
+
   return (
-    <div className="py-4">
+    <div className="bg-secondary px-2 py-4">
       <SectionTitle
-        title="New Arrival!"
-        description="Check & Purchage Your Desire Products!"
+        title="Featured Category"
+        description="Get Your Query From Featured Category"
       />
       <div className="my-container">
         <Swiper
           className="mySwiper"
           spaceBetween={10}
-          slidesPerView={5}
+          slidesPerView={6}
+          autoplay={{delay: 3000, pauseOnMouseEnter: true}}
           navigation={true}
-          autoplay={{ delay: 5000 }}
           breakpoints={{
             320: {
               width: 320,
@@ -48,18 +50,14 @@ const NewArrival: React.FC = () => {
             },
             1280: {
               width: 1280,
-              slidesPerView: 5,
+              slidesPerView: 6,
             },
           }}
           modules={[Navigation, Autoplay]}
         >
-          {allArrival.map((arrival) => (
-            <SwiperSlide key={arrival.id}>
-              <FeaturedCard
-                name={arrival.name}
-                image={arrival.image}
-                price={arrival.price}
-              />
+          {categories.map((category) => (
+            <SwiperSlide key={category.id}>
+              <Category category={category} />
             </SwiperSlide>
           ))}
         </Swiper>
@@ -68,4 +66,4 @@ const NewArrival: React.FC = () => {
   );
 };
 
-export default NewArrival;
+export default FeaturedSection;
