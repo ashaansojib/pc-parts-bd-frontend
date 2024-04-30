@@ -20,7 +20,10 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
-
+img{
+  max-width: 100%;
+  max-width: 100%;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -40,7 +43,7 @@ body {
   @apply py-2 px-4 bg-primary w-full text-white font-semibold mt-2 rounded-md hover:bg-secondary hover:text-primary transition duration-300 ease-out
 }
 .case-card-container{
-  @apply border p-2 m-2 md:m-0 rounded-md bg-white text-center h-full flex flex-col items-center justify-between transition-all
+  @apply border p-2 m-2 md:m-0 rounded-md bg-white h-full transition-all text-center flex flex-col justify-between items-end
 }
 .case-card-container:hover h2{
   @apply text-red-500 duration-300 ease-in transition
@@ -48,7 +51,12 @@ body {
 .case-card-container:hover img{
   @apply skew-x-1
 }
-
+.featured-card-container{
+  @apply text-center h-[390px] flex flex-col justify-between items-end border p-2
+}
+.featured-card-container:hover h2{
+  @apply text-red-500 duration-300 ease-in transition
+}
 /* swiper */
 /* styles/globals.css */
 .swiper-button-prev, .swiper-button-next {

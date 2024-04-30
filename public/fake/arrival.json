@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "MSI GEFORCE RTX 3050 VENTUS 2X XS 8GB OC GDDR6 GRAPHICS CARD",
+        "image": "https://www.universal.com.bd/image/cache/catalog/MSI/msi-geforce-rtx-3050-ventus-2x-xs-8gb-oc-gddr6-graphics-card-476x476.jpg.webp",
+        "price": "12500"
+    },
+    {
+        "id": "2",
+        "name": "REVENGER PRISM 1 ARGB PWM FAN White",
+        "image": "https://www.universal.com.bd/image/cache/catalog/products_2024/revenger-prism-1-White-476x476.jpg.webp",
+        "price": "3450"
+    },
+    {
+        "id": "3",
+        "name": "WD Blue SN580 GEN 4 M.2 NVMe 1TB SSD",
+        "image": "https://www.universal.com.bd/image/cache/catalog/WESTERN-DIGITAL/wd-blue-sn580-nvme-1tb-ssd-476x476.jpg.webp",
+        "price": "5600"
+    },
+    {
+        "id": "4",
+        "name": "REVENGER PRISM 1 ARGB PWM FAN White",
+        "image": "https://www.universal.com.bd/image/cache/catalog/products_2024/revenger-prism-1-White-476x476.jpg.webp",
+        "price": "3450"
+    },
+    {
+        "id": "5",
+        "name": "MSI PRO B650-S WIFI AMD MOTHERBOARD",
+        "image": "https://www.universal.com.bd/image/cache/catalog/MSI/msi-pro-b650m-s-wifi-amd-motherboard-476x476.jpg.webp",
+        "price": "11200"
+    },
+    {
+        "id": "6",
+        "name": "MSI GEFORCE RTX 3050 VENTUS 2X XS 8GB OC GDDR6 GRAPHICS CARD",
+        "image": "https://www.universal.com.bd/image/cache/catalog/MSI/msi-geforce-rtx-3050-ventus-2x-xs-8gb-oc-gddr6-graphics-card-476x476.jpg.webp",
+        "price": "12500"
+    }
+]
