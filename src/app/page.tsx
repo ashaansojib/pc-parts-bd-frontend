@@ -6,10 +6,12 @@ import PopularSection from "@/components/home/PopularSection";
 import NewArrival from "@/components/home/NewArrival";
 import ShowCase from "@/components/home/ShowCase";
 import FeaturedSection from "@/components/home/FeaturedSection";
+import CustomerDeals from "@/components/home/CustomerDeals";
 export default function Home() {
   return (
     <main>
       <Header />
+      <CustomerDeals />
       <FeaturedSection />
       <ShowCase />
       <NewArrival />

@@ -60,6 +60,9 @@ img{
 .category-container{
   @apply bg-white cursor-pointer border text-center p-2 flex flex-col justify-between h-[220px] items-center rounded-lg
 }
+.deals-container{
+  @apply border p-2 text-center h-full flex flex-col justify-between items-end gap-2 uppercase rounded-lg bg-white
+}
 /* swiper */
 /* styles/globals.css */
 .swiper-button-prev, .swiper-button-next {
