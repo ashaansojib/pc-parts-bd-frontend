@@ -10,7 +10,7 @@ const FeaturedCard: React.FC<FeaturedCardProps> = ({ name, image, price }) => {
   return (
     <div className="featured-card-container">
       <div className="relative">
-        <Image src={image} alt={name} width={250} height={100} />
+        <Image layout="responsive" src={image} alt={name} width={250} height={100} />
         <h2 className="text-sm font-medium text-primary pb-2">{name}</h2>
         <span className="text-red-500 absolute left-0 top-0 font-semibold">
           15%
