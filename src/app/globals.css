@@ -43,7 +43,7 @@ img{
   @apply py-2 px-4 bg-primary w-full text-white font-semibold mt-2 rounded-md hover:bg-secondary hover:text-primary transition duration-300 ease-out
 }
 .case-card-container{
-  @apply border p-2 m-2 md:m-0 rounded-md bg-white h-full transition-all text-center flex flex-col justify-between items-end
+  @apply border p-2 m-2 md:m-0 rounded-md bg-white h-full text-center flex flex-col justify-between items-center
 }
 .case-card-container:hover h2{
   @apply text-red-500 duration-300 ease-in transition
@@ -52,7 +52,7 @@ img{
   @apply skew-x-1
 }
 .featured-card-container{
-  @apply text-center h-[390px] flex flex-col justify-between items-end border p-2 rounded-md
+  @apply border p-2 m-2 md:m-0 rounded-md bg-white text-center
 }
 .featured-card-container:hover h2{
   @apply text-red-500 duration-300 ease-in transition
@@ -61,7 +61,13 @@ img{
   @apply bg-white cursor-pointer border text-center p-2 flex flex-col justify-between h-[220px] items-center rounded-lg
 }
 .deals-container{
-  @apply border p-2 text-center h-full flex flex-col justify-between items-end gap-2 uppercase rounded-lg bg-white
+  @apply border m-2 md:m-0 p-2 text-center h-full flex flex-col justify-between items-center gap-2 uppercase rounded-lg bg-white
+}
+.deals-container h3{
+  @apply font-semibold text-primary hover:text-accent
+}
+.deals-container:hover h3{
+  @apply text-accent
 }
 /* swiper */
 /* styles/globals.css */
@@ -83,7 +89,7 @@ img{
 
 /* main header css */
 .header-container{
-  @apply my-container grid lg:grid-cols-7 grid-cols-1 gap-4 justify-between items-center w-full md:p-0 p-2 lg:h-[74px]
+  @apply my-container grid lg:grid-cols-7 grid-cols-1 gap-4 justify-between items-center w-full md:p-0 p-2 lg:h-[84px]
 }
 .header-deals{
   @apply md:col-span-4 md:flex justify-between items-center gap-4

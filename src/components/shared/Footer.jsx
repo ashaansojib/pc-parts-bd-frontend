@@ -4,7 +4,7 @@ import { FaHeart } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-accent px-3 py-6">
+    <footer className="bg-accent px-2 py-6">
       <div className="my-container">
         {/* footer head */}
         <FooterHead />

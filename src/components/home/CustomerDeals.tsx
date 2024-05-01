@@ -22,7 +22,7 @@ const CustomerDeals: React.FC = () => {
         {deals.map((deal) => (
           <div key={deal.id} className="deals-container">
             <Image src={deal.image} alt="category" width={160} height={40} />
-            <h3 className="font-semibold text-primary">{deal.title}</h3>
+            <h3>{deal.title}</h3>
           </div>
         ))}
       </div>

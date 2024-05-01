@@ -26,9 +26,10 @@ const NewArrival: React.FC = () => {
         title="New Arrival!"
         description="Check & Purchage Your Desire Products!"
       />
-      <div className="my-container">
+      <div className="my-container pb-4">
         <Swiper
           className="mySwiper"
+          height={100}
           spaceBetween={10}
           slidesPerView={5}
           navigation={true}

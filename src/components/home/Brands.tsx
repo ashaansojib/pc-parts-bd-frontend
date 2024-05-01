@@ -20,7 +20,7 @@ const Brands: React.FC = () => {
       .then((data) => setBrands(data));
   }, []);
   return (
-    <div className="my-container pb-4">
+    <div className="my-container pb-3">
       <Swiper
         className="mySwiper"
         slidesPerView={8}
@@ -46,13 +46,13 @@ const Brands: React.FC = () => {
         }}
         modules={[Autoplay]}
       >
-        {brands.map((brand) => (
-          <SwiperSlide key={brand.id} className="border w-full p-2 bg-white">
-            <Link className="flex justify-center items-center" href="#">
-              <Image src={brand.logo} alt="Logo" width={120} height={35} />
-            </Link>
-          </SwiperSlide>
-        ))}
+          {brands.map((brand) => (
+            <SwiperSlide key={brand.id} className="border w-full p-2 bg-white">
+              <Link className="flex justify-center items-center" href="#">
+                <Image src={brand.logo} alt="Logo" width={120} height={35} />
+              </Link>
+            </SwiperSlide>
+          ))}
       </Swiper>
     </div>
   );
