@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { FaPhoneAlt, FaUserAlt, FaUserCircle } from "react-icons/fa";
+import { FaPhoneAlt, FaUserCircle } from "react-icons/fa";
 
 const TopHeader = () => {
   return (
