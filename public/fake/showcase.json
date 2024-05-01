@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "image": "https://www.universal.com.bd/image/cache/catalog/AAAA/home-new/banner/video-review-635x354.jpg.webp",
+        "link": "www.dev-sojib.com"
+    },
+    {
+        "id": "2",
+        "image": "https://www.universal.com.bd/image/cache/catalog/AAAA/home-new/new/bioster-brand-home-banner-2024-582x324.jpg.webp",
+        "link": "www.dev-sojib.com"
+    },
+    {
+        "id": "3",
+        "image": "https://www.universal.com.bd/image/cache/catalog/AAAA/home-new/banner/Corporate-Office-Pc-420x158.jpg.webp",
+        "link": "www.dev-sojib.com"
+    },
+    {
+        "id": "4",
+        "image": "https://www.universal.com.bd/image/cache/catalog/AAAA/home-new/banner/Gaming-PC-420x158.jpg.webp",
+        "link": "www.dev-sojib.com"
+    },
+    {
+        "id": "5",
+        "image": "https://www.universal.com.bd/image/cache/catalog/AAAA/home-new/marvo-banner-800x302.jpg.webp",
+        "link": "www.dev-sojib.com"
+    }
+]

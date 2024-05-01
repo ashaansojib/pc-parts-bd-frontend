@@ -18,7 +18,7 @@ const RevengerSection: React.FC = () => {
   }, []);
 
   return (
-    <div className="bg-secondary">
+    <div className="bg-secondary py-4">
       <SectionTitle
         title="Explore Avenger"
         description="A Big Options For Choose Avengers Case"

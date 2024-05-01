@@ -20,7 +20,10 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
-
+img{
+  max-width: 100%;
+  max-width: 100%;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -40,7 +43,7 @@ body {
   @apply py-2 px-4 bg-primary w-full text-white font-semibold mt-2 rounded-md hover:bg-secondary hover:text-primary transition duration-300 ease-out
 }
 .case-card-container{
-  @apply border p-2 m-2 md:m-0 rounded-md bg-white text-center h-full flex flex-col items-center justify-between transition-all
+  @apply border p-2 m-2 md:m-0 rounded-md bg-white h-full text-center flex flex-col justify-between items-center
 }
 .case-card-container:hover h2{
   @apply text-red-500 duration-300 ease-in transition
@@ -48,7 +51,24 @@ body {
 .case-card-container:hover img{
   @apply skew-x-1
 }
-
+.featured-card-container{
+  @apply border p-2 m-2 md:m-0 rounded-md bg-white text-center
+}
+.featured-card-container:hover h2{
+  @apply text-red-500 duration-300 ease-in transition
+}
+.category-container{
+  @apply bg-white cursor-pointer border text-center p-2 flex flex-col justify-between h-[220px] items-center rounded-lg
+}
+.deals-container{
+  @apply border m-2 md:m-0 p-2 text-center h-full flex flex-col justify-between items-center gap-2 uppercase rounded-lg bg-white
+}
+.deals-container h3{
+  @apply font-semibold text-primary hover:text-accent
+}
+.deals-container:hover h3{
+  @apply text-accent
+}
 /* swiper */
 /* styles/globals.css */
 .swiper-button-prev, .swiper-button-next {
@@ -59,4 +79,24 @@ body {
   font-size: 16px !important;
   color: white;
   font-weight: 600;
+}
+.active{
+  @apply py-2 px-4 inline-block bg-primary text-white uppercase font-semibold
+}
+.default{
+  @apply py-2 px-4 inline-block hover:bg-primary hover:text-white text-primary uppercase font-semibold border-r
+}
+
+/* main header css */
+.header-container{
+  @apply my-container grid lg:grid-cols-7 grid-cols-1 gap-4 justify-between items-center w-full md:p-0 p-2 lg:h-[84px]
+}
+.header-deals{
+  @apply md:col-span-4 md:flex justify-between items-center gap-4
+}
+.header-deal-container{
+  @apply py-1 px-2 rounded bg-secondary flex justify-center md:justify-between items-center gap-2
+}
+.header-item{
+  @apply py-1 px-2 rounded bg-secondary flex justify-center md:justify-between items-center gap-2
 }

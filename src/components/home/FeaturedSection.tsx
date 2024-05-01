@@ -1,35 +1,39 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { SectionTitle } from "../shared/SectionTitle";
-import FeaturedCard from "../cards/FeaturedCard";
+import Category from "../cards/Category";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper/modules";
 
-interface PopularItemProps {
+interface CategoryProps {
   id: string;
   name: string;
   image: string;
-  price: string;
 }
-const PopularSection: React.FC = () => {
-  const [popularItem, setPopularItem] = useState<PopularItemProps[]>([]);
+
+const FeaturedSection: React.FC = () => {
+  const [categories, setCategories] = useState<CategoryProps[]>([]);
+
   useEffect(() => {
-    fetch("/fake/popular.json")
+    fetch("/fake/category.json")
       .then((res) => res.json())
-      .then((data) => setPopularItem(data));
+      .then((data) => setCategories(data));
   }, []);
+
   return (
-    <>
+    <div className="bg-secondary px-2 py-4">
       <SectionTitle
-        title="Popular Products"
-        description="Explore More Popular Items in PCPartsBD!"
+        title="Featured Category"
+        description="Get Your Query From Featured Category"
       />
       <div className="my-container">
         <Swiper
+          className="mySwiper"
           spaceBetween={10}
-          slidesPerView={5}
+          slidesPerView={6}
+          autoplay={{delay: 3000, pauseOnMouseEnter: true}}
           navigation={true}
           breakpoints={{
             320: {
@@ -44,32 +48,22 @@ const PopularSection: React.FC = () => {
               width: 768,
               slidesPerView: 3,
             },
-            1024: {
-              width: 1024,
-              slidesPerView: 4,
-            },
             1280: {
               width: 1280,
-              slidesPerView: 5,
+              slidesPerView: 6,
             },
           }}
-          modules={[Navigation]}
-          className="mySwiper"
+          modules={[Navigation, Autoplay]}
         >
-          {popularItem.map((item) => (
-            <SwiperSlide key={item.id}>
-              <FeaturedCard
-                key={item.id}
-                name={item.name}
-                image={item.image}
-                price={item.price}
-              />
+          {categories.map((category) => (
+            <SwiperSlide key={category.id}>
+              <Category category={category} />
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
-    </>
+    </div>
   );
 };
 
-export default PopularSection;
+export default FeaturedSection;

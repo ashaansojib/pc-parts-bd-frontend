@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "name": "Laptop",
+        "image": "https://www.universal.com.bd/image/cache/catalog/Univision/univision-led350-17-inch-60hz-ah-fhd-monitor-476x476.jpg.webp"
+    },
+    {
+        "id": "2",
+        "name": "HeadPhones",
+        "image": "https://www.universal.com.bd/image/cache/catalog/Redragon/redragon-h130-pelias-wired-gaming-headset-476x476.jpg.webp"
+    },
+    {
+        "id": "3",
+        "name": "Desktop",
+        "image": "https://www.universal.com.bd/image/cache/catalog/INTEL/Package-1-476x476.jpg.webp"
+    },
+    {
+        "id": "4",
+        "name": "Gamming Chair",
+        "image": "https://www.universal.com.bd/image/cache/catalog/website/category-image/gammin-chair_11zon-200x170h.png.webp"
+    },
+    {
+        "id": "5",
+        "name": "Routers",
+        "image": "https://www.universal.com.bd/image/cache/catalog/website/category-image/network_11zon-200x170h.png.webp"
+    },
+    {
+        "id": "6",
+        "name": "MicroPhone",
+        "image": "https://www.universal.com.bd/image/cache/catalog/Redragon/gm99-stix-1-500x500-476x476.jpg.webp"
+    },
+    {
+        "id": "7",
+        "name": "Gamming Chair",
+        "image": "https://www.universal.com.bd/image/cache/catalog/website/category-image/gammin-chair_11zon-200x170h.png.webp"
+    },
+    {
+        "id": "8",
+        "name": "Routers",
+        "image": "https://www.universal.com.bd/image/cache/catalog/website/category-image/network_11zon-200x170h.png.webp"
+    },
+    {
+        "id": "9",
+        "name": "MicroPhone",
+        "image": "https://www.universal.com.bd/image/cache/catalog/Redragon/gm99-stix-1-500x500-476x476.jpg.webp"
+    }
+]

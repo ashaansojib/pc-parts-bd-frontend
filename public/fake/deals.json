@@ -1,0 +1,42 @@
+[
+    {
+        "id":"1",
+        "title": "Laptop Mega Discount",
+        "image": "https://www.universal.com.bd/image/cache/catalog/AAAA/deals/laptop-deals-512x512.png.webp"
+    },
+    {
+        "id":"2",
+        "title": "PC Build Offer",
+        "image": "https://www.universal.com.bd/image/cache/catalog/AAAA/deals/pc-build-deals-512x512.png.webp"
+    },
+    {
+        "id":"3",
+        "title": "Monitor Deal",
+        "image": "https://www.universal.com.bd/image/cache/catalog/AAAA/deals/monitor-deals-512x512.png.webp"
+    },
+    {
+        "id":"4",
+        "title": "CLEARENCE SALE",
+        "image": "https://www.universal.com.bd/image/cache/catalog/AAAA/deals/clearance-sale-512x512.jpg.webp"
+    },
+    {
+        "id":"5",
+        "title": "Compbo Offer",
+        "image": "https://www.universal.com.bd/image/cache/catalog/AAAA/deals/combo-offer-512x512.jpg.webp"
+    },
+    {
+        "id":"6",
+        "title": "CCTV ON Sale",
+        "image": "https://www.universal.com.bd/image/cache/catalog/AAAA/deals/cc-camera-deals-512x512.png.webp"
+    },
+    {
+        "id":"7",
+        "title": "Casing Deals",
+        "image": "https://www.universal.com.bd/image/cache/catalog/AAAA/deals/case-deals-512x512.png.webp"
+    },
+    {
+        "id":"9",
+        "title": "Monitor Deal",
+        "image": "https://www.universal.com.bd/image/cache/catalog/AAAA/deals/monitor-deals-512x512.png.webp"
+    }
+]

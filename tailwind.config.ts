@@ -16,7 +16,7 @@ const config: Config = {
       backgroundColor: {
         primary: "#046BC9",
         secondary: "#E9F2F9",
-        accent: "#DD2831",
+        accent: "#06101d",
       },
       maxWidth: {
         maxWidth: "1280px",
