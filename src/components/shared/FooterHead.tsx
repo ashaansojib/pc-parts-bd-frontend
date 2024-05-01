@@ -9,11 +9,10 @@ import {
   FaInstagram,
   FaPhoneAlt,
   FaSearch,
-  FaTools,
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
-import { FaLocationPin, FaSignalMessenger } from "react-icons/fa6";
+import { FaLocationPin } from "react-icons/fa6";
 
 const FooterHead = () => {
   return (

@@ -7,10 +7,12 @@ import NewArrival from "@/components/home/NewArrival";
 import ShowCase from "@/components/home/ShowCase";
 import FeaturedSection from "@/components/home/FeaturedSection";
 import CustomerDeals from "@/components/home/CustomerDeals";
+import HeroSection from "@/components/home/HeroSection";
 export default function Home() {
   return (
     <main>
       <Header />
+      <HeroSection />
       <CustomerDeals />
       <FeaturedSection />
       <ShowCase />

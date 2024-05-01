@@ -1,10 +1,14 @@
 import React from 'react';
+import TopHeader from './TopHeader';
+import NavBar from './NavBar';
 
 const Header = () => {
     return (
-        <div className='bg-secondary p-2'>
-            main header
-        </div>
+        <header>
+            <TopHeader />
+            heder
+            <NavBar />
+        </header>
     );
 };
 

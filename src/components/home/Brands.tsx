@@ -20,7 +20,7 @@ const Brands: React.FC = () => {
       .then((data) => setBrands(data));
   }, []);
   return (
-    <div className="my-container py-4">
+    <div className="my-container pb-4">
       <Swiper
         className="mySwiper"
         slidesPerView={8}
