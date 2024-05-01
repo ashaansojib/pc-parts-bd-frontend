@@ -74,3 +74,23 @@ img{
   color: white;
   font-weight: 600;
 }
+.active{
+  @apply py-2 px-4 inline-block bg-primary text-white uppercase font-semibold
+}
+.default{
+  @apply py-2 px-4 inline-block hover:bg-primary hover:text-white text-primary uppercase font-semibold border-r
+}
+
+/* main header css */
+.header-container{
+  @apply my-container grid lg:grid-cols-7 grid-cols-1 gap-4 justify-between items-center w-full md:p-0 p-2 lg:h-[74px]
+}
+.header-deals{
+  @apply md:col-span-4 md:flex justify-between items-center gap-4
+}
+.header-deal-container{
+  @apply py-1 px-2 rounded bg-secondary flex justify-center md:justify-between items-center gap-2
+}
+.header-item{
+  @apply py-1 px-2 rounded bg-secondary flex justify-center md:justify-between items-center gap-2
+}

@@ -4,7 +4,7 @@ import { FaPhoneAlt, FaUserCircle } from "react-icons/fa";
 
 const TopHeader = () => {
   return (
-    <div className="bg-accent text-white p-3 font-semibold text-sm">
+    <div className="bg-accent text-white p-3 font-semibold text-sm hidden md:block">
       <div className="my-container md:flex justify-between items-center">
         <Link href="#">
           <h4 className="hover:text-secondary ">
