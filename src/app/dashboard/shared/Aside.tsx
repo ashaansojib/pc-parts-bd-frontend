@@ -16,6 +16,9 @@ const Aside = () => {
       <Link className="dashboard-menu" href="/dashboard/navigation">
         Menu Bar <FaArrowRight className="dash-icon" />
       </Link>
+      <Link className="dashboard-menu" href="/">
+        Logout <FaArrowRight className="dash-icon" />
+      </Link>
     </div>
   );
 };

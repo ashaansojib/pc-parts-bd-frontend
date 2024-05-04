@@ -19,6 +19,7 @@ bun dev
 * npm install swiper
 * react hook form and zod
 * npm install @mui/material @emotion/react @emotion/styled
+* react-hot-toast
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

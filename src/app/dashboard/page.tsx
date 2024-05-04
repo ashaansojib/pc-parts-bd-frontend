@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import { FaEdit } from "react-icons/fa";
 import { FaDeleteLeft } from "react-icons/fa6";
+import toast, { Toaster } from "react-hot-toast";
 interface ProductsProps {
   id: string;
   name: string;
@@ -24,9 +25,13 @@ const page = () => {
       .then((data) => setProducts(data));
   }, []);
   // .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-
+  // hadler of toast
+  const handleToaster = () => {
+    toast.error("This is Admin actions!");
+  };
   return (
-    <div>
+    <>
+      <Toaster position="top-right" />
       <DashboardTitle title="All Products Manage Here!" />
       <div>
         <Table stickyHeader aria-label="sticky table">
@@ -47,8 +52,14 @@ const page = () => {
                 <TableCell>{product.price}</TableCell>
                 <TableCell>PC Case</TableCell>
                 <TableCell className="flex gap-2 items-center">
-                    <FaEdit className="text-xl cursor-pointer" />
-                    <FaDeleteLeft className="text-xl cursor-pointer" />
+                  <FaEdit
+                    onClick={handleToaster}
+                    className="text-xl cursor-pointer"
+                  />
+                  <FaDeleteLeft
+                    onClick={handleToaster}
+                    className="text-xl cursor-pointer"
+                  />
                 </TableCell>
               </TableRow>
             ))}
@@ -64,7 +75,7 @@ const page = () => {
         onRowsPerPageChange={handleChangeRowsPerPage}
       /> */}
       </div>
-    </div>
+    </>
   );
 };
 

@@ -109,7 +109,7 @@ img{
 .submit-btn{
   @apply py-2 px-4 bg-primary text-white rounded-md hover:bg-secondary hover:text-primary transition duration-300 cursor-pointer
 }
-input{
+input, textarea{
   @apply border px-3 py-2 inline-block w-full
 }
 .error-btn{
