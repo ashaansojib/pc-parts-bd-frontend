@@ -17,7 +17,7 @@ const TopHeader = () => {
             +880,1892939284, +900,29101819
           </span>
         </p>
-        <Link href="#" className="flex gap-1 items-center justify-end">
+        <Link href="/dashboard" className="flex gap-1 items-center justify-end">
           <FaUserCircle />
           <span>Account</span>
         </Link>
